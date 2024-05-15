@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  width: 50vh;
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  border-radius: 10px;
+}
+.head1 {
+  font-family: Roboto;
+  font-size: 42px;
+  color: white;
+}
+.btn1 {
+  height: 40px;
+  padding: 11px;
+  background-color: white;
+  border: 0px;
+  border-radius: 5px;
+  font-family: Roboto;
+}
